@@ -1,5 +1,5 @@
 /*
-	body - Hero section
+	Head - Hero section
 */
 body {
   font-family: "Helvetica", sans-serif;
@@ -9,12 +9,45 @@ h2,
 h3{
   font-weight: bold;
 }
-hero {
-  background-image: url('resources/background/the-flatiron-building.jpg');
+.hero {
+  background-image: url('../background/the-flatiron-building.png');
   text-align: center;
   color: white;
 }
-
 .hero h1 {
   font-size: 70px;
+}
+/*
+	Hero section
+*/
+.btn {
+  font-size: 18px;
+  color: white;
+}
+.supporting {
+  text-align: center;
+}
+
+.supporting h2 {
+  font-size: 32px;
+}
+
+.supporting h3 {
+  font-size: 23px;
+}
+
+.supporting-item p {
+  font-size: 14px;
+}
+
+.hero h2 {
+  font-size: 23px;
+}
+/*
+Footer Section
+*/
+.footer {
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
 }

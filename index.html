@@ -3,42 +3,72 @@
   <head>
     <meta charset="utf-8">
     <title>Broadway</title>
-    <link href="/css/style.css" type="txt/css"  rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
   </head>
   <body>
     <!-- Hero section -->
     <div class="hero">
       <h1>Broadway Design</h1>
-      <p><a class="btn-nav" href="#">Home</a></p>
-      <p><a class="btn-nav" href="#process">Process</a></p>
-      <p><a class="btn-nav" href="#work">Work</a></p>
-      <p><a class="btn-nav" href="#team">Team</a></p>
-      <p><a class="btn-nav" href="#contact">Contact</a></p>
+        <p><a class="btn" href="#">Home</a></p>
+        <p><a class="btn" href="#process">Process</a></p>
+        <p><a class="btn" href="#work">Work</a></p>
+        <p><a class="btn" href="#team">Team</a></p>
+        <p><a class="btn" href="#contact">Contact</a></p>
     </div>
     <!-- Process Section -->
-      <h2>Our Process</h2>
-        <h3>Identyfy</h3>
+      <div class="supporting" id="process">
+        <h2>Our Process</h2>
+      <div class="supporting-icon">
+        <img src="resources/icons/identify.svg">
+          <h3>Identify</h3>
           <p>We focus on the most important details.</p>
-        <h3>Understand</h3>
+      </div>
+      <div class="supporting-icon">
+        <img src="resources/icons/understand.svg">
+          <h3>Understand</h3>
           <p>We study our projects inside and out.</p>
-        <h3>Execute</h3>
+      </div>
+      <div class="supporting-icon">
+        <img src="resources/icons/execute.svg">
+          <h3>Execute</h3>
           <p>We put everything we have into our work.</p>
-
-
+      </div>
+    </div>
     <!-- Mini Hero Section -->
-      <h2>Designed in New York</h2>
-        <h3>Portafolio</h3>
-          <p>Coming Soon</p>
-        <h3>Team</h3>
-          <p>We're Hiring!</p>
-        <h3>Contact</h3>
-          <p>Phone: (555)-555-5555 <br />
-            E-mail: help@broadway.com<br />
-            Twitter: @broadway</p>
-
-
+      <div class="hero">
+        <h2>Designed in New York</h2>
+      </div>
+    <!-- More info -->
+      <div class="supporting" id="work">
+        <div class="supporting-icon">
+          <h3>Portafolio</h3>
+            <p>Coming Soon</p>
+        </div>
+      </div>
+      <div class="supporting" id="team">
+        <div class="supporting-icon">
+          <h3>Team</h3>
+            <p>We're Hiring!</p>
+        </div>
+      </div>
+      <div class="supporting" id="contact">
+        <div class="supporting-icon">
+          <h3>Contact</h3>
+            <p>Phone: (555)-555-5555 <br />
+              E-mail: help@broadway.com<br />
+              Twitter: @broadway</p>
+        </div>
+      </div>
     <!-- Footer Section -->
-      &copy;Broadway 2017 <a href="#">Home</a> <a href="#">About</a>
-      <a href="#">Work</a> <a href="#">Team</a> <a href="#">Contact</a>
+    <div class="footer">
+      <p>
+        &copy; Broadway 2017
+        <a class="btn" href="#">Home</a>
+        <a class="btn" href="#about">About</a>
+        <a class="btn" href="#work">Work</a>
+        <a class="btn" href="#team">Team</a>
+        <a class="btn" href="#contact">Contact</a>
+      </p>
+    </div>
   </body>
 </html>
